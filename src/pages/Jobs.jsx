@@ -83,7 +83,7 @@ export default function Jobs() {
               </div>
             </div>
 
-            <a href={job.url} target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+            <a href={job.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <button className="btn-primary" style={{ width: '100%', padding: '12px' }}>
                 Apply on {job.platform} <ExternalLink size={16} />
               </button>

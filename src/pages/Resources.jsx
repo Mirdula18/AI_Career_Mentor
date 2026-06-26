@@ -34,7 +34,7 @@ export default function Resources() {
                   key={i} 
                   href={res.link} 
                   target="_blank" 
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="glass-card" 
                   style={{ 
                     padding: '16px', 

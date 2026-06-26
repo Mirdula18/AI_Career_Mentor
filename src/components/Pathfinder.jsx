@@ -74,7 +74,7 @@ export default function Pathfinder({ weeklyHours, path, setPath, strictMode }) {
                   <h5 style={{ margin: 0, color: 'var(--text-primary)' }}>Agent Recommendations:</h5>
                   <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
                     {module.resources.map((res, i) => (
-                      <a key={i} href={res.link} style={{ 
+                      <a key={i} href={res.link} target="_blank" rel="noopener noreferrer" style={{
                         textDecoration: 'none', 
                         display: 'flex', 
                         alignItems: 'center', 
